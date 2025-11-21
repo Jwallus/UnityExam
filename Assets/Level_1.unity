@@ -4131,6 +4131,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 07315944deaad094da8f8745a52e2a3a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2146230490}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 07315944deaad094da8f8745a52e2a3a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2146230492}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 07315944deaad094da8f8745a52e2a3a, type: 3}
 --- !u!1 &1359330864 stripped
 GameObject:
@@ -5262,7 +5265,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.7294856, g: 0.80166674, b: 0.9150943, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -6105,6 +6108,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7923320338811732987, guid: 65b6ef59202a3664b9ef1767225443b0, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6814,6 +6821,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &2146230492
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359330864}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1fb8f85c55baa9b438926f7fc089903e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1309733363983216572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6954,7 +6983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4883158609866008434, guid: 65b6ef59202a3664b9ef1767225443b0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.43
       objectReference: {fileID: 0}
     - target: {fileID: 4883158609866008434, guid: 65b6ef59202a3664b9ef1767225443b0, type: 3}
       propertyPath: m_LocalPosition.z
