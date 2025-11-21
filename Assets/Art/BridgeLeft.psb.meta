@@ -97,8 +97,8 @@ ScriptedImporter:
   layeredSpriteImportData:
   - name: Layer 2 copy 2
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: -0.000019541438, y: 0.513316}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
